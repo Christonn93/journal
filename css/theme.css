@@ -1,0 +1,66 @@
+body {
+
+    color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, li {
+    color: black;
+}
+
+p{
+    font-size: medium;
+}
+
+ul li {
+
+    list-style-type: none;
+    font-size: medium;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Grid system */
+.row1 {
+    grid-area: header;
+}
+
+.row2 {
+    grid-area: menu;
+}
+
+.row3 {
+    grid-area: main;
+}
+
+.row4 {
+    grid-area: right;
+}
+
+.row5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: whitesmoke;
+    
+}

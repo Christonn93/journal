@@ -1,0 +1,16 @@
+.padding {
+    padding: 1rem;
+}
+
+.margin {
+    margin: 1rem;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.list {
+    margin: auto;
+
+}
